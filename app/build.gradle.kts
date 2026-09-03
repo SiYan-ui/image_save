@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("org.jetbrains.kotlin.android") version "2.0.21"
+    // AGP 9.x provides Kotlin on the build classpath. Do not request it again
+    // with a version, otherwise Gradle cannot perform plugin compatibility checks.
 }
 
 android {
@@ -25,9 +26,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = "11"
     }
 }
 
