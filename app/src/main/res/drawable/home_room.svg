@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#F7EBDD"/>
+  <path d="M0 0h1080v1180H0z" fill="#F3D7BC"/>
+  <path d="M0 1180h1080v740H0z" fill="#C99778"/>
+  <path d="M0 1168h1080" stroke="#A96F55" stroke-width="20"/>
+  <path d="M0 1200h1080" stroke="#E8C3A5" stroke-width="10"/>
+
+  <!-- warm sunlight and framed window -->
+  <path d="M100 240h410v570H100z" fill="#BFDAD5" stroke="#9D735F" stroke-width="20"/>
+  <path d="M305 240v570M100 525h410" stroke="#9D735F" stroke-width="15"/>
+  <path d="M120 260h370v245H120z" fill="#EAF4E9" opacity=".7"/>
+  <path d="M120 545h370v245H120z" fill="#DDEDE5" opacity=".65"/>
+  <path d="M80 820h450" stroke="#9D735F" stroke-width="28"/>
+  <path d="M80 820v55M530 820v55" stroke="#9D735F" stroke-width="18"/>
+  <path d="M50 250q70 40 120 0v600H50zM440 250q55 40 105 0v600H440z" fill="#E7AE78" opacity=".85"/>
+
+  <!-- wall art -->
+  <rect x="650" y="210" width="280" height="250" rx="12" fill="#EBC9A7" stroke="#A9775F" stroke-width="16"/>
+  <rect x="680" y="240" width="220" height="190" fill="#D2E1D1"/>
+  <path d="M700 390q45-100 90 0 40-120 100 0" fill="none" stroke="#819D80" stroke-width="16"/>
+  <circle cx="770" cy="300" r="28" fill="#F0C47F"/>
+  <rect x="735" y="530" width="170" height="110" rx="15" fill="#D99D75" stroke="#A9775F" stroke-width="12"/>
+  <path d="M755 610h130" stroke="#F2C7A0" stroke-width="14"/>
+
+  <!-- bookshelf -->
+  <rect x="75" y="930" width="330" height="600" rx="18" fill="#B8754F" stroke="#8E563F" stroke-width="18"/>
+  <path d="M95 1080h290M95 1240h290M95 1400h290" stroke="#8E563F" stroke-width="18"/>
+  <path d="M125 1030v-80M160 1030v-110M200 1030v-90M245 1030v-120M285 1030v-80M330 1030v-105" stroke="#F0C28E" stroke-width="22"/>
+  <path d="M125 1190v-100M170 1190v-120M215 1190v-90M260 1190v-110M315 1190v-100M355 1190v-115" stroke="#D9E0D0" stroke-width="24"/>
+  <path d="M130 1350v-100M180 1350v-115M230 1350v-90M280 1350v-125M330 1350v-95" stroke="#D59062" stroke-width="24"/>
+  <rect x="120" y="1430" width="240" height="70" fill="#C98A5E"/>
+
+  <!-- sofa -->
+  <rect x="555" y="1100" width="440" height="310" rx="55" fill="#E6B276" stroke="#AA704F" stroke-width="18"/>
+  <rect x="520" y="1320" width="510" height="260" rx="60" fill="#D99B69" stroke="#AA704F" stroke-width="18"/>
+  <path d="M680 1110v270M850 1110v270" stroke="#C58A5E" stroke-width="14"/>
+  <path d="M570 1575v90M980 1575v90" stroke="#804B3B" stroke-width="24"/>
+  <circle cx="630" cy="1200" r="55" fill="#D4A5A0"/><circle cx="900" cy="1200" r="55" fill="#A9C4B5"/>
+
+  <!-- coffee table and plant -->
+  <path d="M435 1530h230l-35 150H470z" fill="#C47C50" stroke="#8E563F" stroke-width="14"/>
+  <rect x="450" y="1480" width="200" height="55" rx="16" fill="#E5B27E" stroke="#8E563F" stroke-width="14"/>
+  <path d="M530 1475q-15-130-80-155M540 1475q25-150 95-175M535 1475q0-120 10-180" fill="none" stroke="#71905F" stroke-width="18"/>
+  <path d="M445 1320q-35-35-75-10M625 1300q45-35 75-5M545 1295q-5-55 20-85" fill="none" stroke="#8AAA70" stroke-width="28"/>
+
+  <!-- rug -->
+  <path d="M210 1690q330-170 690 0v190H210z" fill="#E8C49F" stroke="#B47B60" stroke-width="18"/>
+  <path d="M280 1735q270-110 550 0M280 1790q270-100 550 0" fill="none" stroke="#F5DCC2" stroke-width="16"/>
+  <path d="M0 1880h1080" stroke="#9E624B" stroke-width="35"/>
+</svg>

@@ -97,25 +97,23 @@ fun HomeScreen() {
     var dialogState: DialogState by remember { mutableStateOf(DialogState.None) }
     var selectedRole by remember { mutableStateOf<Role?>(null) }
 
-    Box(modifier = Modifier.fillMaxSize()) {
-        Image(
-            painter = painterResource(id = R.drawable.livingroom),
-            contentDescription = "客厅主场景",
-            modifier = Modifier.fillMaxSize(),
-            contentScale = ContentScale.Crop
-        )
-
-        val role = selectedRole
-        if (role == null) {
-            AddRoleButton(
-                onClick = { dialogState = DialogState.SelectRole },
-                modifier = Modifier.align(Alignment.Center)
-            )
-        } else {
-            SelectedRole(
-                role = role,
-                modifier = Modifier.align(Alignment.Center)
-            )
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = MaterialTheme.colorScheme.background
+    ) {
+        Box(modifier = Modifier.fillMaxSize()) {
+            val role = selectedRole
+            if (role == null) {
+                AddRoleButton(
+                    onClick = { dialogState = DialogState.SelectRole },
+                    modifier = Modifier.align(Alignment.Center)
+                )
+            } else {
+                SelectedRole(
+                    role = role,
+                    modifier = Modifier.align(Alignment.Center)
+                )
+            }
         }
     }
 
