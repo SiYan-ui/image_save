@@ -38,6 +38,10 @@ dependencies {
     implementation(composeBom)
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
+    implementation("androidx.compose.foundation:foundation")
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.4")
     implementation(libs.androidx.compose.ui.tooling.preview)
     debugImplementation(libs.androidx.compose.ui.tooling)
 
